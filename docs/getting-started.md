@@ -67,7 +67,8 @@ This will take a while, so we invite you to go and grab a coffee!
 
 `espresso cup by @ptzianos`
 
-### Deploy a pipeline
+The Dracon Helm package lists as dependencies the Bitnami charts for Postgres and
+ MongoDB and the chart for Neo4j. The values used are in the `deploy/dracon/values/dev.yaml` file.
 
 For example, we can deploy a pipeline for the `golang-project`.
 
