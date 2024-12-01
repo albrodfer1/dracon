@@ -60,7 +60,7 @@ postgresql:
   <<: *psqlConfig
 
 neo4j:
-  # if set, a Neo4j instnace will be deployed
+  # if set, a Neo4j instance will be deployed
   enabled: true
   neo4j:
     edition: community
